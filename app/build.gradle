@@ -32,9 +32,20 @@ dependencies {
 
     implementation libs.appcompat
     implementation libs.material
-    implementation libs.activity
-    implementation libs.constraintlayout
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
+    implementation libs.threetenabp
+    //
+    implementation libs.rxjava
+    implementation libs.rxandroid
+    implementation libs.rxbinding
+    implementation libs.rxbinding.material
+    //
+    implementation libs.commons.collections4
+    implementation libs.commons.lang3
+    //
+    runtimeOnly libs.room.runtime
+    implementation libs.room.rxjava2
+    annotationProcessor libs.room.compiler
 }
